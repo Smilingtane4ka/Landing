@@ -16,9 +16,9 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 60px;
+	/*margin: 0 auto 60px;*/
 	padding: 0;
-	*zoom: 1;
+	zoom: 1;
 }
 
 .bx-wrapper img {
@@ -29,24 +29,25 @@
 /** THEME
 ===================================*/
 
-.bx-wrapper .bx-viewport {
-	-moz-box-shadow: 0 0 5px #ccc;
-	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;
-	left: -5px;
-	background: #fff;
-	
+/*.bx-wrapper .bx-viewport {*/
+	/*-moz-box-shadow: 0 0 5px #ccc;*/
+	/*-webkit-box-shadow: 0 0 5px #ccc;*/
+	/*box-shadow: 0 0 5px #ccc;*/
+	/*border:  5px solid #fff;*/
+	/*left: -5px;*/
+	/*background: #fff;*/
+	/**/
 	/*fix other elements on the page moving (on Chrome)*/
-	-webkit-transform: translatez(0);
-	-moz-transform: translatez(0);
-    	-ms-transform: translatez(0);
-    	-o-transform: translatez(0);
-    	transform: translatez(0);
-}
+	/*-webkit-transform: translatez(0);*/
+	/*-moz-transform: translatez(0);*/
+    	/*-ms-transform: translatez(0);*/
+    	/*-o-transform: translatez(0);*/
+    	/*transform: translatez(0);*/
+/*}*/
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
+	display: none;
 	position: absolute;
 	bottom: -30px;
 	width: 100%;
@@ -55,8 +56,8 @@
 /* LOADER */
 
 .bx-wrapper .bx-loading {
-	min-height: 50px;
-	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	/*min-height: 50px;*/
+	/*background: url(images/bx_loader.gif) center center no-repeat #fff;*/
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -67,16 +68,17 @@
 
 /* PAGER */
 
-.bx-wrapper .bx-pager {
+/*.bx-wrapper .bx-pager {
+	display: none;
 	text-align: center;
 	font-size: .85em;
 	font-family: Arial;
 	font-weight: bold;
 	color: #666;
 	padding-top: 20px;
-}
+}*/
 
-.bx-wrapper .bx-pager .bx-pager-item,
+/*.bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
 	display: inline-block;
 	*zoom: 1;
@@ -99,10 +101,11 @@
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #000;
-}
+}*/
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
+/*
 .bx-wrapper .bx-prev {
 	left: 10px;
 	background: url(images/controls.png) no-repeat 0 -32px;
@@ -136,7 +139,9 @@
 	display: none;
 }
 
-/* AUTO CONTROLS (START / STOP) */
+*/
+/* AUTO CONTROLS (START / STOP) *//*
+
 
 .bx-wrapper .bx-controls-auto {
 	text-align: center;
@@ -172,7 +177,9 @@
 	background-position: -86px -33px;
 }
 
-/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+*/
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT *//*
+
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
 	text-align: left;
@@ -184,7 +191,9 @@
 	width: 35px;
 }
 
-/* IMAGE CAPTIONS */
+*/
+/* IMAGE CAPTIONS *//*
+
 
 .bx-wrapper .bx-caption {
 	position: absolute;
@@ -202,3 +211,4 @@
 	font-size: .85em;
 	padding: 10px;
 }
+*/

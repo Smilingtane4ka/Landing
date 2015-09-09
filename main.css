@@ -495,10 +495,10 @@ video {
     background-repeat: no-repeat;
     height: 100vh;
     padding-left: 5%;
-    padding-top: 92px;
 }
 .create-site .description {
     max-width: 521px;
+    padding-top: 92px;
 }
 .create-site .description h1{
     color: #fafafc;
