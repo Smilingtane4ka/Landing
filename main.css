@@ -99,8 +99,10 @@ input[type="password"] {
     color: #686a6e;
     font: 17px/1 'pt_sansregular';
     margin-right: 15px;
-    padding: 14px 30px 13px;
+    padding: 0 30px;
     width: 243px;
+    height: 48px;
+    line-height: 48px;
 }
 input[type="submit"] {
     color: #fafafc;
@@ -108,23 +110,32 @@ input[type="submit"] {
     text-decoration: none;
     background: #09c47e;
     border-radius: 9px;
-    padding: 17px 30px 14px;
+    padding: 0 30px;
     outline: none;
     border: none;
+    height: 48px;
+    line-height: 48px;
+
 }
 input::-webkit-input-placeholder {
     color: #686a6e;
     font: 17px/1 'pt_sansregular';
+    height: 48px;
+    line-height: 48px;
 }
 input:-moz-placeholder {
     color: #686a6e;
     font: 17px/1 'pt_sansregular';
+    height: 48px;
+    line-height: 48px;
 }
 select {
-    padding: 14px 43px 13px 16px;
+    padding: 0 43px 0 16px;
     background: #ffffff;
     border-radius: 9px;
     border: none;
+    height: 48px;
+    line-height: 48px;
     -webkit-appearance: none;
     font: 17px/1 'pt_sansregular';
     /* for FF */
@@ -177,7 +188,7 @@ video {
     background-repeat: no-repeat;
     background-size: 242px 229px;
     display: inline-block;
-    height: 122px;
+    height: 126px;
     width: 144px;
 }
 .video-description h1 {
@@ -320,9 +331,10 @@ video {
 }
 /* 6. Mac-container */
 .mac-container {
+    display: none;
     height: 100%;
     margin-top: -225px;
-    position: absolute;
+    position: fixed;
     right: 50%;
     top: 50%;
     /*margin-right: -30%;*/
@@ -356,8 +368,32 @@ video {
     position: absolute;
     width: 577px;
 }
-.mac-content .blog-mac-content .blog-screen {
+.mac-content .blog-screen {
     background-image: url("images/blog.png");
+}
+.mac-content .commerce-screen {
+    background-image: url("images/commerce.png");
+}
+.mac-content .portfolio-screen {
+    background-image: url("images/portfolio.png");
+}
+.mac-content .company-screen {
+    background-image: url("images/company.png");
+}
+.mac-content .restaurant-screen {
+    background-image: url("images/restaurant.png");
+}
+.mac-content .city-screen {
+    background-image: url("images/city.png");
+}
+.mac-content .wedding-screen {
+    background-image: url("images/wedding.png");
+}
+.mac-content .school-screen {
+    background-image: url("images/shool.png");
+}
+.mac-content .create-screen {
+    background-image: url("images/create-site.png");
 }
 /* 7. Modules */
 .modules-wrapper {
