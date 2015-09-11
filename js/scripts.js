@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $slider = $('.js-bxslider').bxSlider({
+    $slider = $('.js-slider').bxSlider({
         mode: 'vertical',
         touchEnabled: true,
         adaptiveHeight: true,
@@ -44,4 +44,17 @@ $(document).ready(function() {
             $('.mac-content > div').eq(oldIndex - 1).hide();
         }
     });
+
+    /*$('.js-slider').fullpage({
+        scrollBar: true,
+        setFitToSection: true,
+        verticalCentered: true,
+        scrollOverflow: true,
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
+            console.log('onSlideLeave: ' + index);
+        },
+        onLeave: function(index, nextIndex, direction){
+            console.log('onLeave: ' + index);
+        }
+    });*/
 });

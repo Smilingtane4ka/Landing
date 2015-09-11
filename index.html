@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="UCOZ">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="js/bxslider/jquery.bxslider.css">
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">-->
+    <script src="js/jquery.min.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <!--<script src="js/lodash.js"></script>-->
+    <!--<script src="js/jquery.slimscroll.min.js"></script>-->
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/bxslider/jquery.bxslider.min.js"></script>
+
+    <!--<script src="js/jquery.fullPage.js"></script>-->
     <script src="js/scripts.js"></script>
     <title>UCOZ</title>
 </head>
 <body>
-<div class="page-wrapper js-bxslider">
-    <header>
+<div class="page-wrapper js-slider">
+    <header class="section">
         <video autoplay="autoplay" loop="loop">
-            <source src="video\SunriseoverBjorkasjo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video/SunriseoverBjorkasjo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video/SunriseoverBjorkasjo.webm" type='video/webm; codecs="vp8, vorbis"'>
         </video>
         <div class="video-description">
             <div class="logo"></div>
@@ -27,7 +34,7 @@
             <a href="#">Создать сайт</a>
         </div>
     </header>
-    <section class="category-slide category-slide-blog">
+    <section class="section category-slide category-slide-blog">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Блог</h1>
@@ -38,7 +45,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-commerce">
+    <section class="section category-slide category-slide-commerce">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Интернет-магазин</h1>
@@ -49,7 +56,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-portfolio">
+    <section class="section category-slide category-slide-portfolio">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Портфолио</h1>
@@ -60,7 +67,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-company">
+    <section class="section category-slide category-slide-company">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Компания</h1>
@@ -71,7 +78,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-restaurant">
+    <section class="section category-slide category-slide-restaurant">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Ресторан</h1>
@@ -82,7 +89,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-city">
+    <section class="section category-slide category-slide-city">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Город</h1>
@@ -93,7 +100,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-wedding">
+    <section class="section category-slide category-slide-wedding">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Свадьба</h1>
@@ -103,7 +110,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-school">
+    <section class="section category-slide category-slide-school">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Школа или детский сад</h1>
@@ -113,7 +120,7 @@
             </div>
         </div>
     </section>
-    <section class="category-slide category-slide-create-site">
+    <section class="section category-slide category-slide-create-site">
         <div class="category-slide-cover">
             <div class="category-description">
                 <h1>Создайте свой сайт прямо сейчас</h1>
@@ -132,7 +139,7 @@
             </div>
         </div>
     </section>
-    <section class="modules-wrapper">
+    <section class="section modules-wrapper">
         <div class="modules-caption">
             <h1>У нас есть 23 модуля</h1>
 
@@ -313,7 +320,7 @@
             </div>
         </div>
     </section>
-    <section class="create-site">
+    <section class="section create-site">
         <div class="description">
             <h1>Более 400 шаблонов в вашем распоряжении</h1>
 
@@ -321,7 +328,7 @@
             <a href="#">Создать сайт</a>
         </div>
     </section>
-    <section class="success-story">
+    <section class="section success-story">
         <div class="modules-caption">
             <h1>Истории успеха</h1>
 
@@ -386,7 +393,7 @@
             </article>
         </div>
     </section>
-    <footer>
+    <footer class="section">
         <section class="sign-in">
             <div class="sign-in-description">
                 <h1>Более миллиона людей уже создали сайт на UCOZ</h1>
