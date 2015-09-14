@@ -91,6 +91,7 @@ table {
 body {
     font-family: 'pt_sansregular';
     font-size: 18px;
+    min-width: 1024px;
 }
 input[type="text"],
 input[type="password"] {
@@ -172,6 +173,7 @@ header {
     overflow: hidden;
     overflow-y: hidden;
     position: relative;
+    text-align: center;
     top: 0;
     width: 100%;
 }
@@ -185,7 +187,8 @@ header {
     margin-left: -337.5px;
     position: absolute;
     text-align: center;
-    top: 103px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 675px;
 }
 .video-description .logo {
